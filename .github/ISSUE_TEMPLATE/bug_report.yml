@@ -1,0 +1,27 @@
+name: Bug report
+description: Create a report to help us improve
+title: '[BUG]: '
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please write what problem/bug you are experiencing or want to report.
+    validations:
+      required: true
+  - type: textarea
+    id: expectedbhv
+    attributes:
+      label: Expected behavior/contents
+      description: Please write here the expected behavior/contents
+    validations:
+      required: false
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Code of Conduct
+      description: I follow the [CoC]()
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

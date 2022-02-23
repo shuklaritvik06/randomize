@@ -1,0 +1,24 @@
+{
+  "name": "@tech4everyone/randomize",
+  "version": "1.0.0",
+  "description": "Generate random male and female names, random integers between a range etc",
+  "main": "randomize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuklaritvik06/randomize.git"
+  },
+  "keywords": [
+    "random",
+    "name",
+    "generator"
+  ],
+  "author": "Ritvik Shukla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuklaritvik06/randomize/issues"
+  },
+  "homepage": "https://github.com/shuklaritvik06/randomize#readme"
+}
